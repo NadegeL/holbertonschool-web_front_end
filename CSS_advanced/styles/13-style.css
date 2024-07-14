@@ -37,7 +37,8 @@ body {
     line-height:var(--line-height-base);
 }
 
-a[href] {
+a:link,
+a:visited {
     color: var(--text-color);
     text-decoration: none;
 }
