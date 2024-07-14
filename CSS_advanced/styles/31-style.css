@@ -162,7 +162,7 @@ a[href]:active {
     color: var(--color-primary);
 }
 .card-testimonial .card-quote {
-    font-style: relative;
+    position: relative;
 }
 .card-testimonial .card-quote::before {
     content: '\201C';
