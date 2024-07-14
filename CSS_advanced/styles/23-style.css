@@ -203,11 +203,12 @@ ul.row {
 }
 
 .footer-adress {
-    --text-color:var(--color-white);
+    color:var(--text-color);
 }
 
 .social-link {
-    display: block; 
+    display: block;
+}
 
 .social-link svg {
     fill: var(--text-color);
