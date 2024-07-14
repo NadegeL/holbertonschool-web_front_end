@@ -117,6 +117,9 @@ a[href]:active{
 
 .header-logo {
     position: var(--header-logo-position);
+}
+
+.header-logo a {
     left: var(--header-logo-link-left);
     position: var(--header-logo-link-position);
     display: var(--header-logo-link-display);
