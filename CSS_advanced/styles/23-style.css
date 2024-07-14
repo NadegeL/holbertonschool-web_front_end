@@ -203,15 +203,14 @@ ul.row {
 }
 
 .footer-adress {
-    text-color:var(--text-color);
+    --text-color:var(--color-white);
 }
 
 .social-link {
-    display: block; /* Rendre l'élément comme un bloc */
-}
+    display: block; 
 
 .social-link svg {
-    fill: var(--text-color); /* Remplir la couleur des enfants svg avec la variable text-color */
+    fill: var(--text-color);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
