@@ -267,11 +267,16 @@ ul.row {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
+.nav-item-link-hover {
+    color: var(--color-white);
 }
-.nav-link:before {
+
+.nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+.nav-link::before {
     content: '';
     position: absolute;
     top:0;
@@ -280,7 +285,7 @@ ul.row {
     width: 0;
     height: 20%;
 }
-.nav:hover .nav-item:hover .nav-link:before {
+.nav-link:hover::before {
     width: 100%;
     background-color: var(--color-primary);
 }
