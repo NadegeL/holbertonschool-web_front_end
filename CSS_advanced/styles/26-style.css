@@ -256,18 +256,17 @@ ul.row {
     color: var(--color-dark-grey);
 }
 
-.footer-adress {
-    text-color:var(--text-color);
+.footer-address {
+  color:var(--text-color);
 }
 
 .social-link {
-    display: block; /* Rendre l'élément comme un bloc */
+  display: block;
 }
 
-.social-link svg {
-    fill: var(--text-color); /* Remplir la couleur des enfants svg avec la variable text-color */
+.social-link > svg {
+  fill: var(--text-color);
 }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 html {
