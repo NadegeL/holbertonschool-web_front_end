@@ -163,6 +163,7 @@ a[href]:active{
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
   color: var(--text-color);
+  --button-color: var(--color-white);
 }
 .container {
     width: 960px;
